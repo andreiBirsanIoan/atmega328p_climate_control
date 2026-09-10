@@ -27,7 +27,7 @@ An automated environment monitoring and actuation node built on the **ATmega328P
 (FSM Logic &
 Non-blocking Timer)
 
-![Circuit Diagram](circuit_diagram.png)
+![Circuit Diagram](climate_Monitor_Diagram.png)
 1. **Data Acquisition:** Reads temperature and humidity at periodic, non-blocking intervals.
 2. **Decision Engine:** Compares current metrics against defined threshold limits.
 3. **Actuation:** Toggles the relay state to drive environmental control hardware.
